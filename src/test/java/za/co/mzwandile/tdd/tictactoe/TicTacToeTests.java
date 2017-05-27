@@ -1,6 +1,8 @@
 package za.co.mzwandile.tdd.tictactoe;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+
 import org.junit.Test;
 
 public class TicTacToeTests {
@@ -9,6 +11,6 @@ public class TicTacToeTests {
     public void mainExistsShouldBeTrue(){
         Main main = new Main();
 
-        assertEquals(Main,main);
+        assertNotNull(main);
     }
 }
